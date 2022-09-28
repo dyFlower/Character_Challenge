@@ -118,7 +118,7 @@ body {
 .eye-frame.left .eye-light {
     position: absolute;
     top: 35px;
-    left: 63px;
+    left: 61px;
     width: 15px;
     height: 15px;
     background: white;
@@ -172,7 +172,7 @@ body {
 .eye-frame.right .eye-light {
     position: absolute;
     top: 45px;
-    left: 132px;
+    left: 134px;
     width: 15px;
     height: 15px;
     background: white;
