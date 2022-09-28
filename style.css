@@ -429,7 +429,7 @@ body {
     color: white;
     font-size: 2.5rem;
     z-index: -1;
-    animation: typing 1.5s steps(26) 4, blink 0.1s step-end 3 alternate, typing-rage 0.4s 10s steps(26) infinite, blink 0.1s 10s step-end infinite alternate, lang-rage 0.5s 10s infinite alternate;
+    animation: typing 1.5s steps(26) 7, blink 0.1s step-end 3 alternate, typing-rage 0.4s 10s steps(26) infinite, blink 0.1s 10s step-end infinite alternate, lang-rage 0.5s 10s infinite alternate;
     overflow: hidden;
     border-bottom: 3px solid;
 }
