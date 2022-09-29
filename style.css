@@ -235,6 +235,7 @@ body {
     left: 65px;
     width: 150px;
     height: 280px;
+    border: 3px solid black;
     background-color: #a7a3be;
     border-radius: 46% 54% 46% 54% / 75% 80% 20% 25%;
     z-index: 4;
