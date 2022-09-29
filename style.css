@@ -31,8 +31,6 @@ body {
     background-color: #dddf8d;
     border: 3px solid black;
     border-radius: 15% 78% 40% 60% / 40% 76% 24% 60%;
-    /* border-right: transparent;
-    border-top: transparent; */
     transform: rotate(110deg);
     z-index: 10;
 }
@@ -82,7 +80,7 @@ body {
     height: 80px;
     background: black;
     border-radius: 50%;
-    animation: smile1 2s 5, rage1 0.1s 10s infinite alternate;
+    animation: smile1 2s 3, rage1 0.1s 6s infinite alternate;
     transform: rotate(10deg);
     z-index: 30;
 }
@@ -123,7 +121,7 @@ body {
     height: 15px;
     background: white;
     border-radius: 50%;
-    animation: hidden 0.1s 10s infinite;
+    animation: hidden 0.1s 6s infinite;
     z-index: 40;
 }
 
@@ -135,7 +133,7 @@ body {
     height: 80px;
     background: black;
     border-radius: 50%;
-    animation: smile2 2s 5, rage2 0.1s 10s infinite alternate;
+    animation: smile2 2s 3, rage2 0.1s 6s infinite alternate;
     transform: rotate(15deg);
     z-index: 30;
 }
@@ -177,7 +175,7 @@ body {
     height: 15px;
     background: white;
     border-radius: 50%;
-    animation: hidden 0.1s 10s infinite;
+    animation: hidden 0.1s 6s infinite;
     z-index: 40;
 }
 
@@ -238,7 +236,6 @@ body {
     width: 150px;
     height: 280px;
     background-color: #a7a3be;
-    border: 3px solid black;
     border-radius: 46% 54% 46% 54% / 75% 80% 20% 25%;
     z-index: 4;
 }
@@ -253,7 +250,7 @@ body {
     background: #dca643;
     border: 3px solid black;
     border-radius: 47% 53% 47% 53% / 89% 93% 7% 11%;
-    animation: rage-arm 0.1s 10s infinite alternate;
+    animation: rage-arm 0.1s 6s infinite alternate;
     transform: rotate(-70deg);
 }
 @keyframes rage-arm {
@@ -275,7 +272,7 @@ body {
     border: 3px solid black;
     border-color: black black transparent black;
     border-radius: 47% 53% 47% 53% / 89% 93% 7% 11%;
-    animation: shake-arm 0.5s 20 alternate, rage-arm2 0.1s 10s infinite alternate;
+    animation: shake-arm 0.5s 12 alternate, rage-arm2 0.1s 6s infinite alternate;
     transform: rotate(45deg);
     z-index: 1;
 }
@@ -429,7 +426,7 @@ body {
     color: white;
     font-size: 2.5rem;
     z-index: -1;
-    animation: typing 1.5s steps(26) 7, blink 0.1s step-end 3 alternate, typing-rage 0.4s 10s steps(26) infinite, blink 0.1s 10s step-end infinite alternate, lang-rage 0.5s 10s infinite alternate;
+    animation: typing 1.5s steps(26) 4, blink 0.1s step-end 3 alternate, typing-rage 0.4s 6s steps(26) infinite, blink 0.1s 6s step-end infinite alternate, lang-rage 0.5s 6s infinite alternate;
     overflow: hidden;
     border-bottom: 3px solid;
 }
@@ -494,7 +491,7 @@ body {
     transform: rotate(15deg);
     background: url(./deepdive.jpeg) no-repeat;
     border: 1px solid black;
-    animation: book 0.1s 10s infinite;
+    animation: book 0.1s 6s infinite;
     background-size: contain;
     object-fit: cover;
 }
